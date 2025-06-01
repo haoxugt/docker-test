@@ -34,11 +34,11 @@ RUN apk add build-base
 
 RUN apk add postgresql-dev gcc python3-dev musl-dev
 
-ARG FLASK_APP
-ARG FLASK_ENV
-ARG DATABASE_URL
-ARG SCHEMA
-ARG SECRET_KEY
+# ARG FLASK_APP
+# ARG FLASK_ENV
+# ARG DATABASE_URL
+# ARG SCHEMA
+# ARG SECRET_KEY
 
 RUN pip install -r requirements.txt
 RUN pip install psycopg2
