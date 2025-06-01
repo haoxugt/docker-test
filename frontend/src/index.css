@@ -1,0 +1,44 @@
+/* TODO: Add sitewide styles */
+@font-face {
+  font-family: 'Capsula';
+  src :url('/fonts/Capsuula.ttf') format('truetype')
+}
+
+:root {
+  --black-color: rgb(25, 20, 20);
+  --blue-color: rgb(10,186,181);
+  --error-red-color: #f15e6c;
+  --green-color: rgb(30, 215, 96);
+  --green-btn-color : rgba(38, 208, 43, 1);
+  --light-black-color: rgb(48, 43, 43);
+  --light-grey-color: #1E2023;
+  --grey-border: #42494D;
+  --bg-grey-color: rgb(237, 236, 219);
+  --light-red-color: rgb(255, 80, 0);
+}
+
+* {
+  font-family: 'Capsule Sans Text', sans-serif;
+  /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+  margin: 0;
+  padding: 0;
+}
+
+/* #root {
+
+} */
+
+body {
+  background-color: black;
+  color: #b3b3b3;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 16px;
+  width: 100%;
+  margin: 0;
+}
+
+#root{
+  padding-left: 10px;
+  padding-right: 10px;
+}
